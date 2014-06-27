@@ -2,14 +2,19 @@ Go for Baby Gophers
 Primeiros passos em Go
 Tags: Go, Golang, Baby Gophers
 
-Alê Borba
-Community Manager, Google
-borba@google.com
-http://google.com/+AleBorba
-@ale_borba
+Nassor Paulino da Silva
+Organizer - Google Developers Group - Floripa
+nassor@gmail.com
+https://google.com/+NassorPaulinodaSilva
+https://github.com/rossan
 
 http://plus.google.com/+DesenvolvedoresGoogle
 http://codigo-google.blogspot.com.br
+https://plus.google.com/109245804055148797587
+
+* Do Original
+
+- _https://github.com/aleborba/presentations_
 
 * Agenda
 
@@ -100,10 +105,14 @@ http://codigo-google.blogspot.com.br
 
 * Command Line
 
-.play scripts/cmd_sample.go /START OMIT/,/END OMIT/ HLcmd
+.code scripts/cmd_sample.go /START OMIT/,/END OMIT/ HLcmd
 
 - Rodar um _go_build_ para testar a compilação
 - Rodar um _go_install_ para instalar o pacote
+.image assets/gopher.png
+
+* Browser
+.play scripts/cmd_sample.go /START OMIT/,/END OMIT/ HLcmd
 .image assets/gopher.png
 
 * Web
@@ -120,10 +129,6 @@ http://codigo-google.blogspot.com.br
 
 .code scripts/leapgo.go /START_1 OMIT/,/END_1 OMIT/ HLleap
 .image assets/gopher.png
-
-* Hardware
-
-.play scripts/leapgo.go /START_2 OMIT/,/END_2 OMIT/ HLleap
 
 * Tools
 
@@ -155,8 +160,8 @@ Varre todos os arquivos .go e refatora para o padrão da linguagem.
 - *goimports*
 Faz um update dos seus imports. Adiciona os que ainda não existem e tira os que não estão sendo usados.
 
-- *errcheck*
-Verifica por erros não detectados por você no seu código.
+- *go*fix*
+Atualiza o código fonte de uma versão mais velha da API para uma mais nova.
 
 * Refs
 
@@ -170,17 +175,15 @@ Verifica por erros não detectados por você no seu código.
 
 * Beta Testers
 
-- *Go*1.3beta1*
+- *Versão de desenvolvimento*
 _http://tip.golang.org_
 
 - *Downloads*
 _http://code.google.com/p/go/wiki/Downloads_
 
 - *Release*Notes*
-_http://tip.golang.org/doc/go1.3_
+_http://tip.golang.org/doc/go1.4_ 
+(ainda não está no ar)
 
 - *Issue*Tracker*
 _http://golang.org/issue/new_
-
-- *Oficial*Release*
-_1_de_Junho_de_2014_(Expected)_
